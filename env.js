@@ -31,3 +31,6 @@ console.log('kur dirba kodas?');
 console.log('ka parasiau terminale', nodeEnv);
 console.log('kokia aplinka turesiu paleisti', env);
 console.log('kas yra prod objekte', options);
+
+
+export default options;   //importuojame kintamaji

@@ -1,9 +1,10 @@
 {
   "name": "03-pamoka-server",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./index.js",
+    "dev": "dead-server",
     "prod": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +12,7 @@
   "author": "Giedre",
   "license": "MIT",
   "devDependencies": {
+    "dead-server": "^1.0.6",
     "node": "^17.7.2",
     "nodemon": "^2.0.16"
   },
@@ -124,5 +126,13 @@
     "xdg-basedir": "^4.0.0",
     "yallist": "^4.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gogpg/03-pamoka-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gogpg/03-pamoka-server/issues"
+  },
+  "homepage": "https://github.com/gogpg/03-pamoka-server#readme",
   "description": ""
 }
